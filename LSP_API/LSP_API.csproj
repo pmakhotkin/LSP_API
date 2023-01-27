@@ -42,9 +42,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CSE.cs" />
-    <Compile Include="LSP.cs" />
+    <Compile Include="iLSP.cs" />
+    <Compile Include="Vestovoy.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Waybill.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSE_Error.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

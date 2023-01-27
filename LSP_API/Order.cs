@@ -8,6 +8,6 @@ namespace LSP_API
 {
     public class Order
     {
-
+        public string Waybill { get; set; } 
     }
 }
